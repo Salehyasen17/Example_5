@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,11 +26,27 @@
         android:layout_marginTop="147dp"
         android:layout_marginEnd="158dp"
         android:layout_marginBottom="161dp"
+        android:onClick="changeText"
         android:text="changeText"
         app:layout_constraintBottom_toTopOf="@+id/Text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="164dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="69dp"
+        android:onClick="Exit"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
