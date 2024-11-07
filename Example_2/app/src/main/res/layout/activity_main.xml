@@ -21,7 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/tvTemp"
         android:layout_width="wrap_content"
@@ -32,6 +31,7 @@
         android:textSize="65sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -66,6 +66,7 @@
 
     </LinearLayout>
 
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -89,4 +90,5 @@
         android:onClick="checkStatus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
